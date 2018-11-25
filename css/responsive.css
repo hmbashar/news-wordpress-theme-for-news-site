@@ -1,0 +1,351 @@
+/* Default Layout: 992px.  */
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column{width:750px}
+.logo {width: 275px;}
+.headermenu {
+float: right;
+margin-bottom: 8px;
+margin-right: 0;
+margin-top: 7px;
+width: 300px;
+}
+.header_right {
+  float: none;
+  width: 366px;
+}
+.socia_share {
+  float: left;
+  margin-bottom: 0;
+  margin-top: 9px;
+}
+.news_search {
+  float: right;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+#nav li a {
+  font-size: 12px;
+  margin-bottom: 4px;
+  min-height: 35px;
+  padding: 11px 6px 3px;
+}
+.mainmenu {
+  min-height: 40px;
+}
+.mainmenu #nav li ul li a {
+  margin: -1px -2px;
+  padding: 3px 10px;
+}
+.mainmenu #nav li ul {
+  width: 190px;
+}
+.braking_news_area p a {
+  border-right: 1px solid #C21515;
+  color: #FFFFFF;
+  float: left;
+  font-weight: bold;
+  margin: 0;
+  padding: 7px 5px;
+}
+.braking_news_area {
+  height: 32px;
+  width: 709px;
+  font-size: 13px;
+}
+.braking_news {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 9px 1px;
+}
+.left_slider {
+  margin-bottom: 8px;
+  width: 450px;
+}
+.right_video {
+  width: 255px;
+  max-height: 207px;
+}
+.single_video_right img {
+  width: 50px;
+}
+.single_video_right h3 a {
+  font-size: 12px;
+  line-height: 7px;
+}
+.single_video_right {
+  padding: 2px 5px 2px 10px;
+}
+.maincontent {
+  margin-top: -80px;
+}
+.single_cat_post {
+  width: 108px;
+}
+.latest_from_category {
+  width: 357px;
+}
+.gallery_left {
+  width: 357px;
+}
+.gallery_content img {
+  width: 105px;
+}
+.tech_news_cat {width: 357px;
+}
+.single_post_tech {
+  width: 168px;
+}
+.post_meta a {font-size: 10px;
+}
+.post_meta {
+  width: 164px;
+}
+.single_post_tech h3 a {
+  font-size: 14px;
+}
+.middle_content {
+  width: 144px;
+}
+.single_post_desk h3 a {
+  font-size: 11px;
+}
+.desk_title, .populer_text h2 {
+  font-size: 18px;
+  margin-bottom: -2px;
+}
+.single_post_desk h3 a {
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+.single_post_desk p {
+  font-size: 12px;
+}
+.single_post_desk h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.right_sidebar {
+  width: 192px;
+}
+.single_cat_post h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.single_cat_post {
+  font-family: arial;
+  font-size: 10px;
+}
+.latest_cat_title, .gallery_tilte, .tech_news_title, .editorial_section_title {
+  margin-bottom: 8px;
+}
+.left_content {
+  position: relative;
+  width: 357px;
+}
+.editorial_section_title {
+  font-size: 18px;
+  margin-left: 0;
+  margin-top: 3px;
+}
+.single_post_editorial_section h3 a {
+  font-size: 11px;
+}
+.newslatter_sidebar h3 {
+  font-size: 16px;
+
+}
+.newslatter_sidebar {
+  font-size: 9px;
+}
+.subscrption_box p {
+  font-size: 8px;
+}
+.single_popular p a{float:right}
+
+.single_popular p {
+  margin-top: 5px;
+}
+.footer_menu li a {
+  padding: 3px 9px;
+}
+.mobile_menu_area{display:none}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.mobile_menu_area{display:block}
+.column{width:250px}
+.socia_share {
+  margin-bottom: 7px;
+  margin-left: 99px;
+  margin-top: 6px;
+}
+.news_search {
+  margin-left: 65px;
+}
+ul#nav{display:none}
+#Mobile_menu{}
+#Mobile_menu{}
+#Mobile_menu li{padding:5px 10px;background:grey;border-bottom:1px dotted #000}
+#Mobile_menu li:last-child{border-bottom:0px dotted #000}
+#Mobile_menu li a{color:#fff;padding: 6px 14px;}
+#Mobile_menu li a:hover{background:#000;color:#fff;padding: 6px 14px;}
+.braking_news_area{display:none}
+.left_slider {
+  width: 210px;
+}
+.right_video {
+  width: 210px;
+  height: 168px;
+}
+.single_video_right img {
+  float: left;
+  margin-right: 10px;
+  width: 44px;
+}
+.single_video_right h3 {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 12px;
+}
+.single_video_right {
+  padding: 4px 9px 5px 15px;
+}
+.latest_from_category {
+  width: 220px;
+}
+.single_cat_post {
+  margin-left: 47px;
+  width: 146px;
+}
+.latest_cat_title, .gallery_tilte, .tech_news_title, .editorial_section_title {
+  font-size: 13px;
+}
+.single_cat_post {
+  font-family: arial;
+  font-size: 9px;
+}
+.gallery_left {
+  width: 220px;
+}
+.gallery_content img {
+  width: 202px;
+}
+.right_sidebar {
+  width: 202px;
+}
+.newslatter_sidebar h3 {
+  font-size: 16px;
+}
+.newslatter_sidebar {
+  font-size: 10px;
+}
+.subscrption_box p {
+  font-size: 10px;
+}
+.footer_menu{display:none}
+.logo {
+  width: 206px;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.mobile_menu_area{display: block;
+padding: 18px 15px;}
+ul#nav {display:none}
+.column{width:300px}
+#Mobile_menu{}
+#Mobile_menu{}
+#Mobile_menu li{padding:5px 10px;background:grey;border-bottom:1px dotted #000}
+#Mobile_menu li:last-child{border-bottom:0px dotted #000}
+#Mobile_menu li a{color:#fff;padding: 6px 14px;}
+#Mobile_menu li a:hover{background:#000;color:#fff;padding: 6px 14px;}
+.socia_share {
+  float: left;
+  margin-left: 69px;
+  margin-top: 5px;
+  width: 142px;
+  margin-bottom: 10px;
+}
+.news_search {
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-top: 16px;
+  width: 251px;
+}
+.braking_news_area {display:none
+}
+.left_slider {
+  margin-bottom: 10px;
+  width: 260px;
+}
+.right_video {
+  height: 182px;
+  width: 265px;
+}
+.single_video_right img {
+  float: left;
+  margin-right: 10px;
+  width: 46px;
+}
+.single_video_right h3 {
+  font-weight: normal;
+  line-height: 15px;
+}
+.single_video_right {
+  padding: 1px 8px 1px 15px;
+}
+.latest_from_category {
+  width: 271px;
+}
+.single_cat_post {
+  font-size: 11px;
+  width: 125px;
+}
+.latest_cat_title, .gallery_tilte, .tech_news_title, .editorial_section_title {
+  font-size: 16px;
+}
+.gallery_left {
+  width: 270px;
+}
+.gallery_content img {
+  width: 122px;
+}
+.tech_news_cat {
+  width: 269px;
+}
+.single_post_tech {
+  margin-left: 32px;
+  width: 218px;
+}
+.middle_content {
+  width: 254px;
+}
+.single_post_desk {
+  margin-left: 23px;
+}
+.single_post_editorial_section img {
+  width: 252px;
+}
+.single_post_editorial_section h3 a {
+  font-size: 15px;
+  margin-left: 30px;
+}
+.footer_menu {
+  display: none;
+}
+}

@@ -1,1 +1,1 @@
-# news-wordpress-theme-for-news-site
+# news wordpress theme for news site

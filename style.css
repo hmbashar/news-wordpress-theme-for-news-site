@@ -1,0 +1,116 @@
+/*
+Theme Name: News
+Author: Md Abul Bashar
+Author URI: http://www.codingbank.com
+Theme URI: http://wp-demo.codingbank.com/news
+Desciption: This is news website wordpress theme.
+Version: 1.0
+Textdomain: news
+*/
+
+.marquee {
+  overflow: hidden;  
+}
+
+
+/*==============================================
+Pages
+================================================*/
+.page_area{border-radius: 5px;
+box-shadow: 0 1px 2px 2px #666;
+margin-bottom: 20px;
+margin-top: 20px;
+padding: 10px;}
+.full_width_page{}
+.page_content{}
+.page_content p{text-align: justify;
+font-size: 17px;
+font-family: open sans;}
+.page_title{}
+.page_title h2{border-bottom: 1px solid #ddd;
+padding-bottom: 10px;
+color: #666;
+font-family: open sans;
+font-weight: bold;}
+
+
+
+/*==============================================
+Calender
+================================================*/
+#wp-calendar {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-left: -2px
+    }
+
+#wp-calendar caption {
+    font-family: roboto;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -5px;
+    text-align: center
+    }
+
+#wp-calendar tbody td {
+    margin-bottom: 10px;
+    text-align: center;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #f4f4f4;
+    padding: 6px
+    }
+
+#wp-calendar tbody td:hover {
+    border-color: #e2e2e2
+    }
+
+#wp-calendar tbody td.pad {
+    border: 0
+    }
+
+#wp-calendar tbody td#today {
+    color: #47C2DC;
+    border-color: #47C2DC
+    }
+
+#wp-calendar tfoot td#prev a, #wp-calendar tfoot td#next a {
+    bottom: -5px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+    position: relative;
+    text-transform: uppercase
+    }
+
+#wp-calendar tfoot td#prev {
+    text-align: left
+    }
+
+#wp-calendar tfoot td#next {
+    text-align: right
+    }
+
+#wp-calendar thead th {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    text-align: center;
+    padding-bottom: 10px
+    }
+
+#wp-calendar tbody td a, #wp-calendar tfoot td#prev a:hover, #wp-calendar tfoot td#next a:hover {
+    color: #47C2DC
+    }
+
+	
+	
+	
+	
+	
+	

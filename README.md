@@ -22,7 +22,13 @@ This project right now open source, you can use this theme for your clients/own 
 
 	[news-two category="Tech News" link="##" count="4"]
 	
-Please import xml and theme option setting for get theme format.
+Please import xml and theme option setting for get theme format. 
+
+you can get that backup file in this theme files. 
+
+![Preview](https://raw.githubusercontent.com/hmbashar/news-wordpress-theme-for-news-site/master/screenshots/Screenshot_1.jpg)
+
+
 
 ![Preview](https://raw.githubusercontent.com/hmbashar/news-wordpress-theme-for-news-site/master/screenshot.png)
 

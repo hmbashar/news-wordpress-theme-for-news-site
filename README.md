@@ -7,6 +7,23 @@ This project right now open source, you can use this theme for your clients/own 
 
 [More Details](https://www.codingbank.com/item/news-wordpress-theme-for-news-site/)
 
+###	Shortcodes
+	
+	[news link="##"]
+	
+
+	[news category="Braking News" link="##"]
+
+	
+
+	[news category="Educational News" link="#"]
+
+	
+
+	[news-two category="Tech News" link="##" count="4"]
+	
+Please import xml and theme option setting for get theme format.
+
 ![Preview](https://raw.githubusercontent.com/hmbashar/news-wordpress-theme-for-news-site/master/screenshot.png)
 
 
